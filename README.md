@@ -8,6 +8,12 @@ SuperTester is a mini testing suite suited for testing programs that create
 standard output from standard input. It also works great for testing student
 programs that require input and produce output!
 
+SuperTester works by comparing output line by line while feeding in desired
+input line by line. It compares the output each time a line is inputted, and
+stops when a difference is found. When a difference is found, files are
+created to provide context to the errors found in the output, and what input
+caused it.
+
 Files
 ------
 You can download a release of SuperTester at:
