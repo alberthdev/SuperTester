@@ -4,9 +4,15 @@ Home page: https://github.com/alberthdev/SuperTester
 
 Introduction
 -------------
-SuperTester is a mini testing suite suited for testing programs that create
-standard output from standard input. It also works great for testing student
-programs that require input and produce output!
+SuperTester is an automated, mini testing suite suited for testing programs
+that create standard output from standard input. It also works great for
+testing student programs that require input and produce output!
+
+Originally written for testing programs as a student in a UMD C programming
+class (ENEE150, to be specific), it has been modified for general use.
+Nevertheless, the ENEE150 specific SuperTester is available as a script called
+`SuperTesterOrig.py`, and the general SuperTest as a script called
+`SuperTester.py`.
 
 SuperTester works by comparing output line by line while feeding in desired
 input line by line. It compares the output each time a line is inputted, and
@@ -86,6 +92,8 @@ TODO
 -----
   * Fix dirty error handling in code
   * Make `progunified.txt` include initial output, which is left out.
+  * Produce much better diff, including highlighting added/removed chars
+  * Add success message at end (and possibly to other parts)
   * Add error checking to see if files exist
   * Add error checking for write permissions
   * Add error checking on *nix systems to see if the program is executable
