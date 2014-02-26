@@ -2,6 +2,8 @@ SuperTester
 ===========
 Home page: https://github.com/alberthdev/SuperTester
 
+![SuperTester Screenshot - Testing Backgammon](/Screenshot.png)
+
 Introduction
 -------------
 SuperTester is an automated, mini testing suite suited for testing programs
