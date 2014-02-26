@@ -57,7 +57,8 @@ program.
 
 Finally, make sure to remove any extraneous debug statements before
 running this program! The valid output will not match any extra debug
-statements!
+statements! (You can try using #defines if you want to preserve your
+debug statements.)
 
 This little script assumes that your program is `./myprog`.
 If it isn't, you can do either of the following:
