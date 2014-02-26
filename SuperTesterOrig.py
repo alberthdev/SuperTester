@@ -6,7 +6,7 @@
 # 
 # setvbuf(stdout, NULL, _IONBF, 0);
 # 
-# This forces your C program to buffer output!
+# This forces your C program to NOT buffer output (stdout)!
 # Finally, make sure to remove any extraneous debug statements before running
 # this program! The valid output will not match any extra debug statements!
 # 

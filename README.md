@@ -50,9 +50,14 @@ this line at the very beginning of C main() function:
 ```
 setvbuf(stdout, NULL, _IONBF, 0);
 ```
-This forces your C program to buffer output!
-Finally, make sure to remove any extraneous debug statements before running
-this program! The valid output will not match any extra debug statements!
+This forces your C program to NOT buffer output (stdout)! This is 100% safe,
+and will only have a performance impact due to making I/O system calls more
+often. You can easily revert this change after you finish debugging your
+program.
+
+Finally, make sure to remove any extraneous debug statements before
+running this program! The valid output will not match any extra debug
+statements!
 
 This little script assumes that your program is `./myprog`.
 If it isn't, you can do either of the following:
